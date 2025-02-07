@@ -3,7 +3,7 @@
 module async_fifo_tb;
 
     parameter DATA_WIDTH = 8;
-    parameter FIFO_DEPTH = 32;
+    parameter FIFO_DEPTH = 90;
 
     reg wr_clk;
     reg rd_clk;
