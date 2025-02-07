@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 module async_fifo #( parameter DATA_WIDTH = 8 ,
-                     parameter FIFO_DEPTH = 32)(
+                     parameter FIFO_DEPTH = 90)(
                      input wr_clk,
                      input rd_clk,
                      input rst_n,
